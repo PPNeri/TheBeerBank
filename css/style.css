@@ -1,0 +1,78 @@
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.header{
+   background-color:orange;
+}
+
+.header > h1{
+    color:white;
+}
+.advanced {
+  color: white;
+}
+
+.timeline_form{
+color: rgb(180, 161, 161);
+margin: 5px;
+text-align: center; 
+}
+
+.advanced_form {
+  
+  color: rgb(180, 161, 161);
+  margin: 2px;
+  margin-left: 6cm;
+  text-align: center;
+
+}
+.header > p{
+    color:white;
+}
+.header_link{
+    color:white;
+}
+/*Para dispositivos com width menor que 768px*/
+body {
+  padding-top: 50px;
+}
+
+.card-body > h4{
+  color:orange;
+  font-weight: bold;
+}
+
+.card-body > p{
+  color:grey; 
+}
+
+.fa-star {
+  color: orange;  
+}
+
+/*Para dispositivos com width maior ou igual a 768px*/
+@media (min-width: 768px) {
+ body {
+     padding-top: 20px;
+  }
+}
+
+.card-img-top{
+  height:200px;
+  width: 100px;
+}
+/*
+.card:hover{
+  transform: scale(1.1);
+
+  
+}
+*/
+
+.btn-success{
+background-color: orange;
+border-color: white;
+}
+
